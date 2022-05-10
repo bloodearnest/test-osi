@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" /></noscript>
+<style>
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+
+      body {
+        font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        margin-bottom: 120px;
+      }
+
+      nav.bg-secondary {
+        background-color: #002147 !important;
+      }
+
+      a {
+        color: #0058be;
+        font-weight: 600;
+        text-decoration-skip-ink: auto;
+        text-underline-offset: 1px;
+      }
+
+      a:hover,
+      a:focus {
+        color: #00397a;
+        text-decoration: underline;
+        text-decoration-color: #001936;
+      }
+
+      .home-codelists dd {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .home-codelists dt {
+        font-size: 1.1rem;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        padding-top: 20px;
+        line-height: 20px;
+        background-color: #f5f5f5;
+      }
+
+      .footer p {
+        margin-bottom: 0;
+      }
+    </style>
+<script src="https://kit.fontawesome.com/7e05304e34.js" crossorigin="anonymous"></script>
+<script>
+      if (document.location.hostname === "www.opencodelists.org") {
+        var script = document.createElement("script");
+        script.defer = true;
+        script.setAttribute("data-domain", "opencodelists.org");
+        script.id = "plausible";
+        script.src = "https://plausible.io/js/plausible.compat.js";
+        document.head.appendChild(script);
+      }
+    </script>
+<title>OpenCodelists: Atrial fibrillation codes</title>
+<link rel="icon" href="/static/favicon.ico">
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<link rel="manifest" href="/static/manifest.webmanifest">
+</head>
+<body class="d-flex flex-column h-100">
+<nav class="navbar navbar-expand-sm navbar-dark bg-secondary justify-content-between align-items-baseline">
+<div class="mr-auto">
+<a class="navbar-brand" href="/">OpenCodelists</a
+        >
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+<li class="navbar-nav nav-item">
+<a class="nav-link text-white" href="/docs/">Docs</a>
+</li>
+<li class="navbar-nav nav-item">
+<a class="nav-link text-white" href="/accounts/register/">Sign up</a>
+</li>
+<li class="navbar-nav nav-item">
+<a class="nav-link text-white" href="/accounts/login/">Sign in</a>
+</li>
+</ul>
+</div>
+</nav>
+<main role="main" class="flex-shrink-0 container mb-5">
+<div class="mt-4">
+<h3 class="mt-4">Atrial fibrillation codes</h3>
+<hr />
+<div class="row">
+<div class="col-md-3 col-lg-2">
+<div class="btn-group-vertical btn-block" role="group">
+<a href="/codelist/nhsd-primary-care-domain-refsets/afib_cod/20200812/download.csv" role="button" class="btn btn-outline-primary btn-block">
+Download CSV
+</a>
+<a href="/codelist/nhsd-primary-care-domain-refsets/afib_cod/20200812/definition.csv" role="button" class="btn btn-outline-primary btn-block">
+Download definition
+</a>
+</div>
+<hr />
+<dl>
+<dt>Coding system</dt>
+<dd>SNOMED CT</dd>
+<dt>Organisation</dt>
+<dd>NHSD Primary Care Domain Refsets</dd>
+<dt>Codelist ID</dt>
+<dd class="text-break">nhsd-primary-care-domain-refsets/afib_cod</dd>
+<dt>Version Tag</dt>
+<dd>20200812</dd>
+<dt>Version ID</dt>
+<dd>10d18f5f</dd>
+</dl>
+<hr />
+<h6>Versions</h6>
+<ul class="pl-3">
+<li>
+20200812
+</li>
+</ul>
+</div>
+<div class="col-md-9 col-lg-10">
+<ul id="tab-list" class="nav nav-tabs" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected=true>About</a
+  >
+</li>
+<li class="nav-item">
+<a class="nav-link" id="full-list-tab" data-toggle="tab" href="#full-list" role="tab" aria-controls="full-list" aria-selected=false>Full list</a
+  >
+</li>
+<li class="nav-item">
+<a class="nav-link" id="tree-tab" data-toggle="tab" href="#tree" role="tab" aria-controls="tree" aria-selected=false>Tree</a
+  >
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane fade p-4 show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+<h4>Description</h4>
+<p><p>Taken from the <code>AFIB_COD</code> refset published by NHSD.</p>
+</p>
+<h4>References</h4>
+<ul>
+<li><a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/primary-care-domain-reference-set-portal">Primary Care Domain Reference Set Portal</a></li>
+</ul>
+</div>
+<div class="tab-pane fade p-4" id="full-list" role="tabpanel" aria-labelledby="full-list-tab">
+<table id="js-codelist-table" class="table table-sm">
+<thead>
+<th>code</th>
+<th>term</th>
+</thead>
+<tbody>
+<tr>
+<td>120041000119109</td>
+<td>Atrial fibrillation with rapid ventricular response</td>
+</tr>
+<tr>
+<td>15964901000119107</td>
+<td>Atypical atrial flutter</td>
+</tr>
+<tr>
+<td>195080001</td>
+<td>Atrial fibrillation and flutter</td>
+</tr>
+<tr>
+<td>233910005</td>
+<td>Lone atrial fibrillation</td>
+</tr>
+<tr>
+<td>233911009</td>
+<td>Non-rheumatic atrial fibrillation</td>
+</tr>
+<tr>
+<td>282825002</td>
+<td>Paroxysmal atrial fibrillation</td>
+</tr>
+<tr>
+<td>300996004</td>
+<td>Controlled atrial fibrillation</td>
+</tr>
+<tr>
+<td>314208002</td>
+<td>Rapid atrial fibrillation</td>
+</tr>
+<tr>
+<td>425615007</td>
+<td>Chronic atrial flutter</td>
+</tr>
+<tr>
+<td>426749004</td>
+<td>Chronic atrial fibrillation</td>
+</tr>
+<tr>
+<td>427665004</td>
+<td>Paroxysmal atrial flutter</td>
+</tr>
+<tr>
+<td>440028005</td>
+<td>Permanent atrial fibrillation</td>
+</tr>
+<tr>
+<td>440059007</td>
+<td>Persistent atrial fibrillation</td>
+</tr>
+<tr>
+<td>49436004</td>
+<td>Atrial fibrillation</td>
+</tr>
+<tr>
+<td>5370000</td>
+<td>Atrial flutter</td>
+</tr>
+<tr>
+<td>706923002</td>
+<td>Longstanding persistent atrial fibrillation</td>
+</tr>
+<tr>
+<td>715395008</td>
+<td>Familial atrial fibrillation</td>
+</tr>
+<tr>
+<td>720448006</td>
+<td>Typical atrial flutter</td>
+</tr>
+<tr>
+<td>762247006</td>
+<td>Preexcited atrial fibrillation</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tab-pane fade p-4" id="tree" role="tabpanel" aria-labelledby="tree-tab">
+<p>
+Codes not in the <a href="#full-list">full codelist</a> are in faint grey.
+</p>
+<div id="codelist-tree"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="js-publish-version-form" tabindex="-1" role="dialog" aria-labelledby="publish-version-label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="publish-version-label">Publish Version</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form method="POST" action="/codelist/nhsd-primary-care-domain-refsets/afib_cod/20200812/publish/">
+<input type="hidden" name="csrfmiddlewaretoken" value="7uRKpnJ6LiyK3AVyZJN4Re4hQvbUwvPk9FzcCJZaQlqxmpXYYgfjEo1D7xd5C95B">
+<p>Publishing a version is irreversible, and will delete any other draft versions or versions under review.</p>
+<p>Are you sure you want to continue?</p>
+<div class="d-flex justify-content-between">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">
+Cancel
+</button>
+<button type="submit" class="btn btn-primary">
+Publish
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="js-delete-version-form" tabindex="-1" role="dialog" aria-labelledby="delete-version-label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="delete-version-label">Delete Version</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form method="POST" action="/codelist/nhsd-primary-care-domain-refsets/afib_cod/20200812/delete/">
+<input type="hidden" name="csrfmiddlewaretoken" value="7uRKpnJ6LiyK3AVyZJN4Re4hQvbUwvPk9FzcCJZaQlqxmpXYYgfjEo1D7xd5C95B">
+<p>Deleting a version is irreversible.</p>
+<p>Are you sure you want to continue?</p>
+<div class="d-flex justify-content-between">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">
+Cancel
+</button>
+<button type="submit" class="btn btn-primary">
+Delete
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#js-codelist-table').DataTable({
+      paging: false
+    });
+
+    $('a[data-toggle="tab"]').on("click", function() {
+      var url = location.href.split("#")[0];
+
+      if ($(this).attr("href") !== "#about") {
+        url += $(this).attr("href");
+      }
+
+      history.pushState(null, null, url);
+    });
+
+    switchToTab();
+  });
+
+  window.addEventListener("hashchange", switchToTab);
+
+  function switchToTab() {
+    var hash = location.hash || "#about";
+    $('#tab-list a[href="' + hash + '"]').tab("show");
+  }
+</script>
+<script id="child-map" type="application/json">{"5370000": ["195080001", "427665004", "715560009", "720448006", "15964901000119107", "425615007"], "49436004": ["195080001", "120041000119109", "282825002", "233911009", "426749004", "233910005", "300996004", "440059007", "440028005", "715395008", "314208002"], "276513001": ["715560009"], "56265001": ["127337006", "870575001", "698247007", "128238001"], "298705000": ["301296002", "118946009"], "301296002": ["49483002", "301095005"], "72654001": ["17366009", "6456007"], "301095005": ["56265001"], "111941005": ["715395008"], "366157005": ["6285003"], "49601007": ["363696006", "56265001", "128487001", "128292002"], "64572001": ["123946008", "111941005", "41969006", "414025005", "2704003", "27624003"], "363696006": ["276513001"], "17366009": ["49436004", "5370000"], "302292003": ["609623002", "128121009"], "195060002": ["762247006"], "106063007": ["49601007", "301095005", "366157005"], "404684003": ["118234003", "64572001"], "301857004": ["302292003"], "40593004": ["762247006", "49436004"], "6285003": ["6456007"], "123946008": ["128121009", "362965005"], "118234003": ["106063007", "123946008", "406123005", "301857004"], "128121009": ["609622007"], "698247007": ["6285003", "72654001", "276513001", "16797001", "40593004"], "6456007": ["120041000119109"], "362965005": ["49483002", "49601007"], "138875005": ["404684003"], "41969006": ["715560009"], "870575001": ["17366009", "762247006"], "440059007": ["706923002"], "609622007": ["118946009"], "128238001": ["425615007", "426749004"], "128292002": ["128238001"], "120041000119109": ["1010405004"], "282825002": ["1010405004"], "22925008": ["363696006"], "16797001": ["195060002"], "118946009": ["49483002"], "414025005": ["22925008"], "406123005": ["301095005"], "128487001": ["127337006"], "27624003": ["128292002"], "127337006": ["282825002"], "2704003": ["128487001"], "609623002": ["609622007", "298705000"], "49483002": ["56265001"]}</script>
+<script id="parent-map" type="application/json">{"715560009": ["276513001", "5370000", "41969006"], "314208002": ["49436004"], "698247007": ["56265001"], "301296002": ["298705000"], "301095005": ["301296002", "406123005", "106063007"], "426749004": ["49436004", "128238001"], "17366009": ["72654001", "870575001"], "56265001": ["49483002", "301095005", "49601007"], "118946009": ["609622007", "298705000"], "195080001": ["49436004", "5370000"], "715395008": ["111941005", "49436004"], "6285003": ["698247007", "366157005"], "123946008": ["118234003", "64572001"], "276513001": ["363696006", "698247007"], "49436004": ["17366009", "40593004"], "609623002": ["302292003"], "15964901000119107": ["5370000"], "762247006": ["40593004", "870575001", "195060002"], "111941005": ["64572001"], "49601007": ["362965005", "106063007"], "64572001": ["404684003"], "302292003": ["301857004"], "363696006": ["49601007", "22925008"], "6456007": ["6285003", "72654001"], "49483002": ["301296002", "362965005", "118946009"], "440028005": ["49436004"], "128121009": ["123946008", "302292003"], "233911009": ["49436004"], "362965005": ["123946008"], "425615007": ["5370000", "128238001"], "406123005": ["118234003"], "106063007": ["118234003"], "609622007": ["609623002", "128121009"], "120041000119109": ["49436004", "6456007"], "404684003": ["138875005"], "72654001": ["698247007"], "282825002": ["127337006", "49436004"], "233910005": ["49436004"], "427665004": ["5370000"], "301857004": ["118234003"], "440059007": ["49436004"], "706923002": ["440059007"], "5370000": ["17366009"], "128238001": ["56265001", "128292002"], "128292002": ["49601007", "27624003"], "1010405004": ["120041000119109", "282825002"], "870575001": ["56265001"], "300996004": ["49436004"], "127337006": ["56265001", "128487001"], "16797001": ["698247007"], "366157005": ["106063007"], "195060002": ["16797001"], "41969006": ["64572001"], "22925008": ["414025005"], "414025005": ["64572001"], "118234003": ["404684003"], "720448006": ["5370000"], "27624003": ["64572001"], "40593004": ["698247007"], "2704003": ["64572001"], "128487001": ["2704003", "49601007"], "298705000": ["609623002"]}</script>
+<script id="tree-tables" type="application/json">[["Disorder", ["49436004", "5370000", "762247006"]]]</script>
+<script id="code-to-term" type="application/json">{"1010405004": "Paroxysmal atrial fibrillation with rapid ventricular response", "106063007": "Cardiovascular finding", "111941005": "Familial disease", "118234003": "Finding by site", "118946009": "Disorder of thorax", "120041000119109": "Atrial fibrillation with rapid ventricular response", "123946008": "Disorder by body site", "127337006": "Acute heart disease", "128121009": "Disorder of trunk", "128238001": "Chronic heart disease", "128292002": "Chronic disease of cardiovascular system", "128487001": "Acute disease of cardiovascular system", "138875005": "SNOMED CT Concept (SNOMED RT+CTV3)", "15964901000119107": "Atypical atrial flutter", "16797001": "Accelerated atrioventricular conduction", "17366009": "Atrial arrhythmia", "195060002": "Ventricular pre-excitation", "195080001": "Atrial fibrillation and flutter", "22925008": "Neonatal disorder", "233910005": "Lone atrial fibrillation", "233911009": "Non-rheumatic atrial fibrillation", "2704003": "Acute disease", "27624003": "Chronic disease", "276513001": "Neonatal dysrhythmia", "282825002": "Paroxysmal atrial fibrillation", "298705000": "Finding of region of thorax", "300996004": "Controlled atrial fibrillation", "301095005": "Cardiac finding", "301296002": "Mediastinal finding", "301857004": "Finding of body region", "302292003": "Finding of trunk structure", "314208002": "Rapid atrial fibrillation", "362965005": "Disorder of body system", "363696006": "Neonatal cardiovascular disorder", "366157005": "Finding of cardiovascular measurement", "404684003": "Clinical finding", "40593004": "Fibrillation", "406123005": "Viscus structure finding", "414025005": "Disorder of fetus or newborn", "41969006": "Idiopathic disease", "425615007": "Chronic atrial flutter", "426749004": "Chronic atrial fibrillation", "427665004": "Paroxysmal atrial flutter", "440028005": "Permanent atrial fibrillation", "440059007": "Persistent atrial fibrillation", "49436004": "Atrial fibrillation", "49483002": "Disorder of mediastinum", "49601007": "Disorder of cardiovascular system", "5370000": "Atrial flutter", "56265001": "Heart disease", "609622007": "Disorder of thoracic segment of trunk", "609623002": "Finding of upper trunk", "6285003": "Tachyarrhythmia", "6456007": "Supraventricular tachycardia", "64572001": "Disease", "698247007": "Cardiac arrhythmia", "706923002": "Longstanding persistent atrial fibrillation", "715395008": "Familial atrial fibrillation", "715560009": "Idiopathic neonatal atrial flutter", "720448006": "Typical atrial flutter", "72654001": "Supraventricular arrhythmia", "762247006": "Preexcited atrial fibrillation", "870575001": "Disorder of cardiac atrium"}</script>
+<script id="code-to-status" type="application/json">{"195080001": "+", "49436004": "+", "15964901000119107": "+", "715395008": "+", "314208002": "+", "427665004": "+", "282825002": "+", "426749004": "+", "425615007": "+", "762247006": "+", "233911009": "+", "720448006": "+", "440059007": "+", "440028005": "+", "5370000": "+", "120041000119109": "+", "233910005": "+", "300996004": "+", "706923002": "+", "301296002": "-", "127337006": "-", "56265001": "-", "404684003": "-", "715560009": "-", "414025005": "-", "27624003": "-", "106063007": "-", "138875005": "-", "17366009": "-", "49601007": "-", "128292002": "-", "366157005": "-", "128238001": "-", "111941005": "-", "123946008": "-", "64572001": "-", "298705000": "-", "41969006": "-", "128487001": "-", "301095005": "-", "870575001": "-", "49483002": "-", "609622007": "-", "609623002": "-", "698247007": "-", "302292003": "-", "128121009": "-", "72654001": "-", "406123005": "-", "16797001": "-", "6456007": "-", "301857004": "-", "118234003": "-", "1010405004": "-", "195060002": "-", "22925008": "-", "362965005": "-", "363696006": "-", "6285003": "-", "276513001": "-", "118946009": "-", "2704003": "-", "40593004": "-"}</script>
+<script src="/static/js/tree.bundle.js"></script>
+</main>
+<footer id="footer" class="border-top bg-light mt-auto py-5">
+<div class="container">
+<ul class="list-inline text-center d-flex flex-column flex-md-row justify-content-center mb-0 mb-md-3">
+<li class="list-inline-item mb-3 mb-md-0 mr-0 mr-md-5">
+<a href="/docs/">
+Documentation
+</a>
+</li>
+<li class="list-inline-item mb-3 mb-md-0 mr-0">
+<a href="https://www.opensafely.org/">
+OpenSAFELY
+</a>
+</li>
+</ul>
+<ul class="list-inline text-center d-flex flex-column flex-md-row justify-content-center">
+<li class="list-inline-item mb-3 mb-md-0 mr-0 mr-md-5">
+<a href="https://www.bennett.ox.ac.uk/">
+Bennett Institute for Applied Data Science
+</a>
+</li>
+<li class="list-inline-item mb-3 mb-md-0">
+<a href="https://www.ox.ac.uk/">
+University of Oxford
+</a>
+</li>
+</ul>
+<div class="row">
+<div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 text-center mt-3 mb-0 small">
+<p>© University of Oxford for the Bennett Institute for Applied Data Science 2022. This work may be copied freely for non-commercial research and study. If you wish to do any of the other acts restricted by the copyright you should apply in writing to <a href="/cdn-cgi/l/email-protection#97e3f2f6fad7f8e7f2f9e4f6f1f2fbeeb9f8e5f0"><span class="__cf_email__" data-cfemail="fe8a9b9f93be918e9b908d9f989b9287d0918c99">[email&#160;protected]</span></a>.</p>
+<p>SNOMED Clinical Terms® content © International Health Terminology Standards Development Organisation.</p>
+<p>ICD-10 codes, terms and text © World Health Organization, Third Edition. 2007.</p>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
