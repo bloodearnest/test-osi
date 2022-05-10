@@ -74,7 +74,7 @@
         document.head.appendChild(script);
       }
     </script>
-<title>OpenCodelists: BMI</title>
+<title>OpenCodelists: Asthma annual review QOF</title>
 <link rel="icon" href="/static/favicon.ico">
 <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
@@ -105,15 +105,15 @@
 </nav>
 <main role="main" class="flex-shrink-0 container mb-5">
 <div class="mt-4">
-<h3 class="mt-4">BMI</h3>
+<h3 class="mt-4">Asthma annual review QOF</h3>
 <hr />
 <div class="row">
 <div class="col-md-3 col-lg-2">
 <div class="btn-group-vertical btn-block" role="group">
-<a href="/codelist/primis-covid19-vacc-uptake/bmi/v1/download.csv" role="button" class="btn btn-outline-primary btn-block">
+<a href="/codelist/opensafely/asthma-annual-review-qof/33eeb7da/download.csv" role="button" class="btn btn-outline-primary btn-block">
 Download CSV
 </a>
-<a href="/codelist/primis-covid19-vacc-uptake/bmi/v1/definition.csv" role="button" class="btn btn-outline-primary btn-block">
+<a href="/codelist/opensafely/asthma-annual-review-qof/33eeb7da/definition.csv" role="button" class="btn btn-outline-primary btn-block">
 Download definition
 </a>
 </div>
@@ -122,19 +122,17 @@ Download definition
 <dt>Coding system</dt>
 <dd>SNOMED CT</dd>
 <dt>Organisation</dt>
-<dd>PRIMIS Covid Vaccination Uptake Reporting</dd>
+<dd>OpenSAFELY</dd>
 <dt>Codelist ID</dt>
-<dd class="text-break">primis-covid19-vacc-uptake/bmi</dd>
-<dt>Version Tag</dt>
-<dd>v1</dd>
+<dd class="text-break">opensafely/asthma-annual-review-qof</dd>
 <dt>Version ID</dt>
-<dd>08641331</dd>
+<dd>33eeb7da</dd>
 </dl>
 <hr />
 <h6>Versions</h6>
 <ul class="pl-3">
 <li>
-v1
+33eeb7da
 </li>
 </ul>
 </div>
@@ -156,9 +154,27 @@ v1
 <div class="tab-content">
 <div class="tab-pane fade p-4 show active" id="about" role="tabpanel" aria-labelledby="about-tab">
 <h4>Description</h4>
-<p><p>Taken from the <code>BMI_COD</code> field in SARS-CoV2 COVID19 Vaccination Uptake Reporting Codes 20_21 v1, published by PRIMIS.</p>
-<p>© PRIMIS - the University of Nottingham 2021</p>
+<p><p>Asthma review code as listed in the QoF business rules</p>
 </p>
+<h4>Methodology</h4>
+<p><p>Codes were found using the QoF Business Rules v44 reference set - <code>^999011931000230101 (asthma review codes)</code></p>
+</p>
+<h4>References</h4>
+<ul>
+<li><a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/quality-and-outcomes-framework-qof-business-rules-v44-2019-2020-october-2020-release">NHS Digital, QoF Business Rules v44 (October 2020)</a></li>
+<li><a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/primary-care-domain-reference-set-portal">NHS Digital, Primary Care Domain Reference Set (November 2020)</a></li>
+</ul>
+<h4>Signed off by</h4>
+<ul>
+<li>
+Richard Croker,
+(Feb. 23, 2021)
+</li>
+<li>
+Brian MacKenna,
+(Feb. 23, 2021)
+</li>
+</ul>
 </div>
 <div class="tab-pane fade p-4" id="full-list" role="tabpanel" aria-labelledby="full-list-tab">
 <table id="js-codelist-table" class="table table-sm">
@@ -168,12 +184,44 @@ v1
 </thead>
 <tbody>
 <tr>
-<td>60621009</td>
-<td>Body mass index</td>
+<td>270442000</td>
+<td>Asthma monitoring check done</td>
 </tr>
 <tr>
-<td>846931000000101</td>
-<td>Baseline body mass index</td>
+<td>390872009</td>
+<td>Change in asthma management plan</td>
+</tr>
+<tr>
+<td>390877003</td>
+ <td>Step up change in asthma management plan</td>
+</tr>
+<tr>
+<td>390878008</td>
+<td>Step down change in asthma management plan</td>
+</tr>
+<tr>
+<td>394700004</td>
+<td>Asthma annual review</td>
+</tr>
+<tr>
+<td>394701000</td>
+<td>Asthma follow-up</td>
+</tr>
+<tr>
+<td>394720003</td>
+<td>Asthma medication review</td>
+</tr>
+<tr>
+<td>401182001</td>
+<td>Asthma monitoring by nurse</td>
+</tr>
+<tr>
+<td>401183006</td>
+<td>Asthma monitoring by doctor</td>
+</tr>
+<tr>
+<td>754061000000100</td>
+<td>Asthma review using Royal College of Physicians three questions</td>
 </tr>
 </tbody>
 </table>
@@ -197,8 +245,8 @@ Codes not in the <a href="#full-list">full codelist</a> are in faint grey.
 </button>
 </div>
 <div class="modal-body">
-<form method="POST" action="/codelist/primis-covid19-vacc-uptake/bmi/v1/publish/">
-<input type="hidden" name="csrfmiddlewaretoken" value="CJ4dixqsJzRwVpA1833uMXguBlGZPBEA4qeWEzMQJdNCGK9OaPVRmukFxD8sa7Y0">
+<form method="POST" action="/codelist/opensafely/asthma-annual-review-qof/33eeb7da/publish/">
+<input type="hidden" name="csrfmiddlewaretoken" value="froNeaJI9Jn7HwsUJvnld73oB66iHapFviYPoTVn3zGkFoJTtLbQzvTdxvi4mCpH">
 <p>Publishing a version is irreversible, and will delete any other draft versions or versions under review.</p>
 <p>Are you sure you want to continue?</p>
 <div class="d-flex justify-content-between">
@@ -224,8 +272,8 @@ Publish
 </button>
 </div>
 <div class="modal-body">
-<form method="POST" action="/codelist/primis-covid19-vacc-uptake/bmi/v1/delete/">
-<input type="hidden" name="csrfmiddlewaretoken" value="CJ4dixqsJzRwVpA1833uMXguBlGZPBEA4qeWEzMQJdNCGK9OaPVRmukFxD8sa7Y0">
+<form method="POST" action="/codelist/opensafely/asthma-annual-review-qof/33eeb7da/delete/">
+<input type="hidden" name="csrfmiddlewaretoken" value="froNeaJI9Jn7HwsUJvnld73oB66iHapFviYPoTVn3zGkFoJTtLbQzvTdxvi4mCpH">
 <p>Deleting a version is irreversible.</p>
 <p>Are you sure you want to continue?</p>
 <div class="d-flex justify-content-between">
@@ -272,11 +320,11 @@ Delete
     $('#tab-list a[href="' + hash + '"]').tab("show");
   }
 </script>
-<script id="child-map" type="application/json">{"60621009": ["838441000000103", "715456008", "852451000000103", "846931000000101", "248358009", "852461000000100"], "363810004": ["60621009"], "363787002": ["363788007"], "363788007": ["364393001", "363789004"], "138875005": ["363787002"], "248326004": ["363810004"], "87276001": ["60621009"], "364393001": ["87276001"], "363789004": ["248326004"]}</script>
-<script id="parent-map" type="application/json">{"852451000000103": ["60621009"], "60621009": ["87276001", "363810004"], "363788007": ["363787002"], "363789004": ["363788007"], "363787002": ["138875005"], "838441000000103": ["60621009"], "363810004": ["248326004"], "364393001": ["363788007"], "715456008": ["60621009"], "846931000000101": ["60621009"], "852461000000100": ["60621009"], "87276001": ["364393001"], "248358009": ["60621009"], "248326004": ["363789004"]}</script>
-<script id="tree-tables" type="application/json">[["Observable Entity", ["60621009"]]]</script>
-<script id="code-to-term" type="application/json">{"138875005": "SNOMED CT Concept (SNOMED RT+CTV3)", "248326004": "Body measure", "248358009": "Weight for height", "363787002": "Observable entity", "363788007": "Clinical history/examination observable", "363789004": "General characteristic of patient", "363810004": "Body composition measure", "364393001": "Nutritional observable", "60621009": "Body mass index", "715456008": "Percentage median body mass index for age and sex", "838441000000103": "Target body mass index", "846931000000101": "Baseline body mass index", "852451000000103": "Maximum body mass index", "852461000000100": "Minimum body mass index", "87276001": "Nutritional status"}</script>
-<script id="code-to-status" type="application/json">{"60621009": "+", "846931000000101": "+", "87276001": "-", "838441000000103": "-", "248326004": "-", "363787002": "-", "715456008": "-", "852451000000103": "-", "363788007": "-", "364393001": "-", "363810004": "-", "248358009": "-", "138875005": "-", "363789004": "-", "852461000000100": "-"}</script>
+<script id="child-map" type="application/json">{"308537004": ["243851009"], "275908000": ["401182001", "394700004", "401183006", "394701000", "390872009", "754061000000100"], "308501009": ["270442000"], "71388002": ["128927009", "408766003", "243120004"], "404684003": ["307824009"], "138875005": ["404684003", "71388002"], "243853007": ["308501009"], "170609005": ["394701000"], "268511007": ["170609005", "275908000"], "182777000": ["268511007"], "390872009": ["390877003", "390878008"], "128927009": ["119270007", "386053000"], "239516002": ["182777000"], "307824009": ["243815002"], "408766003": ["182832007"], "119270007": ["182832007"], "243851009": ["243853007"], "243120004": ["239516002"], "243815002": ["308537004"], "182832007": ["405784000"], "405784000": ["182836005"], "386053000": ["182777000"], "182836005": ["394720003"]}</script>
+<script id="parent-map" type="application/json">{"243851009": ["308537004"], "754061000000100": ["275908000"], "270442000": ["308501009"], "390872009": ["275908000"], "128927009": ["71388002"], "307824009": ["404684003"], "404684003": ["138875005"], "408766003": ["71388002"], "308501009": ["243853007"], "243120004": ["71388002"], "394701000": ["170609005", "275908000"], "170609005": ["268511007"], "268511007": ["182777000"], "394700004": ["275908000"], "401183006": ["275908000"], "390877003": ["390872009"], "386053000": ["128927009"], "182777000": ["239516002", "386053000"], "390878008": ["390872009"], "243815002": ["307824009"], "401182001": ["275908000"], "182832007": ["119270007", "408766003"], "71388002": ["138875005"], "243853007": ["243851009"], "239516002": ["243120004"], "119270007": ["128927009"], "308537004": ["243815002"], "405784000": ["182832007"], "182836005": ["405784000"], "275908000": ["268511007"], "394720003": ["182836005"]}</script>
+<script id="tree-tables" type="application/json">[["Finding", ["270442000"]], ["Procedure", ["394720003"]], ["Regime/Therapy", ["394700004", "394701000", "401183006", "401182001", "754061000000100", "390872009"]]]</script>
+<script id="code-to-term" type="application/json">{"119270007": "Management procedure", "128927009": "Procedure by method", "138875005": "SNOMED CT Concept (SNOMED RT+CTV3)", "170609005": "Follow-up respiratory assessment", "182777000": "Monitoring of patient", "182832007": "Procedure related to management of drug administration", "182836005": "Review of medication", "239516002": "Monitoring procedure", "243120004": "Regimes and therapies", "243815002": "Prevention status", "243851009": "Chronic disease monitoring status", "243853007": "Respiratory disease monitoring status", "268511007": "Respiratory disease monitoring", "270442000": "Asthma monitoring check done", "275908000": "Asthma monitoring", "307824009": "Administrative statuses", "308501009": "Asthma monitoring status", "308537004": "Monitoring status", "386053000": "Evaluation procedure", "390872009": "Change in asthma management plan", "390877003": "Step up change in asthma management plan", "390878008": "Step down change in asthma management plan", "394700004": "Asthma annual review", "394701000": "Asthma follow-up", "394720003": "Asthma medication review", "401182001": "Asthma monitoring by nurse", "401183006": "Asthma monitoring by doctor", "404684003": "Clinical finding", "405784000": "Pharmacological assessment", "408766003": "Procedure with a procedure focus", "71388002": "Procedure", "754061000000100": "Asthma review using Royal College of Physicians three questions"}</script>
+<script id="code-to-status" type="application/json">{"401182001": "+", "390877003": "+", "394700004": "+", "401183006": "+", "394701000": "+", "270442000": "+", "394720003": "+", "390872009": "+", "754061000000100": "+", "390878008": "+", "128927009": "-", "243815002": "-", "182777000": "-", "404684003": "-", "170609005": "-", "138875005": "-", "119270007": "-", "408766003": "-", "243853007": "-", "182832007": "-", "307824009": "-", "275908000": "-", "71388002": "-", "243120004": "-", "239516002": "-", "182836005": "-", "308537004": "-", "268511007": "-", "386053000": "-", "405784000": "-", "308501009": "-", "243851009": "-"}</script>
 <script src="/static/js/tree.bundle.js"></script>
 </main>
 <footer id="footer" class="border-top bg-light mt-auto py-5">
@@ -307,7 +355,7 @@ University of Oxford
 </ul>
 <div class="row">
 <div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 text-center mt-3 mb-0 small">
-<p>© University of Oxford for the Bennett Institute for Applied Data Science 2022. This work may be copied freely for non-commercial research and study. If you wish to do any of the other acts restricted by the copyright you should apply in writing to <a href="/cdn-cgi/l/email-protection#295d4c48446946594c475a484f4c455007465b4e"><span class="__cf_email__" data-cfemail="394d5c58547956495c574a585f5c554017564b5e">[email&#160;protected]</span></a>.</p>
+<p>© University of Oxford for the Bennett Institute for Applied Data Science 2022. This work may be copied freely for non-commercial research and study. If you wish to do any of the other acts restricted by the copyright you should apply in writing to <a href="/cdn-cgi/l/email-protection#cfbbaaaea28fa0bfaaa1bcaea9aaa3b6e1a0bda8"><span class="__cf_email__" data-cfemail="e79382868aa788978289948681828b9ec9889580">[email&#160;protected]</span></a>.</p>
 <p>SNOMED Clinical Terms® content © International Health Terminology Standards Development Organisation.</p>
 <p>ICD-10 codes, terms and text © World Health Organization, Third Edition. 2007.</p>
 </div>
