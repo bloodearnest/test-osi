@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" /></noscript>
+<style>
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+
+      body {
+        font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        margin-bottom: 120px;
+      }
+
+      nav.bg-secondary {
+        background-color: #002147 !important;
+      }
+
+      a {
+        color: #0058be;
+        font-weight: 600;
+        text-decoration-skip-ink: auto;
+        text-underline-offset: 1px;
+      }
+
+      a:hover,
+      a:focus {
+        color: #00397a;
+        text-decoration: underline;
+        text-decoration-color: #001936;
+      }
+
+      .home-codelists dd {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .home-codelists dt {
+        font-size: 1.1rem;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        padding-top: 20px;
+        line-height: 20px;
+        background-color: #f5f5f5;
+      }
+
+      .footer p {
+        margin-bottom: 0;
+      }
+    </style>
+<script src="https://kit.fontawesome.com/7e05304e34.js" crossorigin="anonymous"></script>
+<script>
+      if (document.location.hostname === "www.opencodelists.org") {
+        var script = document.createElement("script");
+        script.defer = true;
+        script.setAttribute("data-domain", "opencodelists.org");
+        script.id = "plausible";
+        script.src = "https://plausible.io/js/plausible.compat.js";
+        document.head.appendChild(script);
+      }
+    </script>
+<title>OpenCodelists: Asthma Diagnosis code</title>
+<link rel="icon" href="/static/favicon.ico">
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<link rel="manifest" href="/static/manifest.webmanifest">
+</head>
+<body class="d-flex flex-column h-100">
+<nav class="navbar navbar-expand-sm navbar-dark bg-secondary justify-content-between align-items-baseline">
+<div class="mr-auto">
+<a class="navbar-brand" href="/">OpenCodelists</a
+        >
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+<li class="navbar-nav nav-item">
+<a class="nav-link text-white" href="/docs/">Docs</a>
+</li>
+<li class="navbar-nav nav-item">
+<a class="nav-link text-white" href="/accounts/register/">Sign up</a>
+</li>
+<li class="navbar-nav nav-item">
+<a class="nav-link text-white" href="/accounts/login/">Sign in</a>
+</li>
+</ul>
+</div>
+</nav>
+<main role="main" class="flex-shrink-0 container mb-5">
+<div class="mt-4">
+<h3 class="mt-4">Asthma Diagnosis code</h3>
+<hr />
+<div class="row">
+<div class="col-md-3 col-lg-2">
+<div class="btn-group-vertical btn-block" role="group">
+<a href="/codelist/primis-covid19-vacc-uptake/ast/v1/download.csv" role="button" class="btn btn-outline-primary btn-block">
+Download CSV
+</a>
+<a href="/codelist/primis-covid19-vacc-uptake/ast/v1/definition.csv" role="button" class="btn btn-outline-primary btn-block">
+Download definition
+</a>
+</div>
+<hr />
+<dl>
+<dt>Coding system</dt>
+<dd>SNOMED CT</dd>
+<dt>Organisation</dt>
+<dd>PRIMIS Covid Vaccination Uptake Reporting</dd>
+<dt>Codelist ID</dt>
+<dd class="text-break">primis-covid19-vacc-uptake/ast</dd>
+<dt>Version Tag</dt>
+<dd>v1</dd>
+<dt>Version ID</dt>
+<dd>351d79af</dd>
+</dl>
+<hr />
+<h6>Versions</h6>
+<ul class="pl-3">
+<li>
+v1
+</li>
+</ul>
+</div>
+<div class="col-md-9 col-lg-10">
+<ul id="tab-list" class="nav nav-tabs" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected=true>About</a
+  >
+</li>
+<li class="nav-item">
+<a class="nav-link" id="full-list-tab" data-toggle="tab" href="#full-list" role="tab" aria-controls="full-list" aria-selected=false>Full list</a
+  >
+</li>
+<li class="nav-item">
+<a class="nav-link" id="tree-tab" data-toggle="tab" href="#tree" role="tab" aria-controls="tree" aria-selected=false>Tree</a
+  >
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane fade p-4 show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+<h4>Description</h4>
+<p><p>Taken from the <code>AST_COD</code> field in SARS-CoV2 COVID19 Vaccination Uptake Reporting Codes 20_21 v1, published by PRIMIS.</p>
+<p>© PRIMIS - the University of Nottingham 2021</p>
+</p>
+</div>
+<div class="tab-pane fade p-4" id="full-list" role="tabpanel" aria-labelledby="full-list-tab">
+<table id="js-codelist-table" class="table table-sm">
+<thead>
+<th>code</th>
+<th>term</th>
+</thead>
+<tbody>
+<tr>
+<td>103781000119103</td>
+<td>Allergic bronchopulmonary mycosis</td>
+</tr>
+<tr>
+<td>10674711000119105</td>
+<td>Acute severe exacerbation of asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>10674991000119104</td>
+<td>Intermittent allergic asthma</td>
+</tr>
+<tr>
+<td>10675391000119101</td>
+<td>Severe controlled persistent asthma</td>
+</tr>
+<tr>
+<td>10675431000119106</td>
+<td>Severe persistent allergic asthma</td>
+</tr>
+<tr>
+<td>10675471000119109</td>
+<td>Acute severe exacerbation of severe persistent allergic asthma</td>
+</tr>
+<tr>
+<td>10675551000119104</td>
+<td>Acute severe exacerbation of severe persistent asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>10675751000119107</td>
+<td>Severe uncontrolled persistent asthma</td>
+</tr>
+<tr>
+<td>10675871000119106</td>
+<td>Mild persistent allergic asthma</td>
+</tr>
+<tr>
+<td>10675911000119109</td>
+<td>Acute severe exacerbation of mild persistent allergic asthma</td>
+</tr>
+<tr>
+<td>10675991000119100</td>
+<td>Acute severe exacerbation of mild persistent allergic asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>10676391000119108</td>
+<td>Moderate persistent allergic asthma</td>
+</tr>
+<tr>
+<td>10676431000119103</td>
+<td>Acute severe exacerbation of moderate persistent allergic asthma</td>
+</tr>
+<tr>
+<td>10676511000119109</td>
+<td>Acute severe exacerbation of moderate persistent asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>10692681000119108</td>
+<td>Aspirin exacerbated respiratory disease</td>
+</tr>
+<tr>
+<td>10692721000119102</td>
+<td>Chronic obstructive asthma co-occurrent with acute exacerbation of asthma</td>
+</tr>
+<tr>
+<td>10692761000119107</td>
+<td>Asthma-chronic obstructive pulmonary disease overlap syndrome</td>
+</tr>
+<tr>
+<td>10742121000119104</td>
+<td>Asthma in mother complicating childbirth</td>
+</tr>
+<tr>
+<td>1086701000000102</td>
+<td>Life threatening acute exacerbation of allergic asthma</td>
+</tr>
+<tr>
+<td>1086711000000100</td>
+<td>Life threatening acute exacerbation of intrinsic asthma</td>
+
+</tr>
+<tr>
+<td>1103911000000103</td>
+<td>Severe asthma with fungal sensitisation</td>
+</tr>
+<tr>
+<td>11641008</td>
+<td>Millers&#x27; asthma</td>
+</tr>
+<tr>
+<td>12428000</td>
+<td>Intrinsic asthma without status asthmaticus</td>
+</tr>
+<tr>
+<td>124991000119109</td>
+<td>Severe persistent asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>125001000119103</td>
+<td>Moderate persistent asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>125011000119100</td>
+<td>Mild persistent asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>125021000119107</td>
+<td>Intermittent asthma co-occurrent with allergic rhinitis</td>
+</tr>
+<tr>
+<td>135171000119106</td>
+<td>Acute exacerbation of moderate persistent asthma</td>
+</tr>
+<tr>
+<td>135181000119109</td>
+<td>Acute exacerbation of mild persistent asthma</td>
+</tr>
+<tr>
+<td>16584951000119101</td>
+<td>Oral steroid-dependent asthma</td>
+</tr>
+<tr>
+<td>1741000119102</td>
+<td>Intermittent asthma uncontrolled</td>
+</tr>
+<tr>
+<td>1751000119100</td>
+<td>Acute exacerbation of chronic obstructive airways disease with asthma</td>
+</tr>
+<tr>
+<td>18041002</td>
+<td>Printers&#x27; asthma</td>
+</tr>
+<tr>
+<td>195949008</td>
+<td>Chronic asthmatic bronchitis</td>
+</tr>
+<tr>
+<td>195967001</td>
+<td>Asthma</td>
+</tr>
+<tr>
+<td>195977004</td>
+<td>Mixed asthma</td>
+</tr>
+<tr>
+<td>19849005</td>
+<td>Meat-wrappers&#x27; asthma</td>
+</tr>
+<tr>
+<td>225057002</td>
+<td>Brittle asthma</td>
+</tr>
+<tr>
+<td>233678006</td>
+<td>Childhood asthma</td>
+</tr>
+<tr>
+<td>233679003</td>
+<td>Late onset asthma</td>
+</tr>
+<tr>
+<td>233683003</td>
+<td>Hay fever with asthma</td>
+</tr>
+<tr>
+<td>233687002</td>
+<td>Colophony asthma</td>
+</tr>
+<tr>
+<td>233688007</td>
+<td>Sulfite-induced asthma</td>
+</tr>
+<tr>
+<td>2360001000004109</td>
+<td>Steroid dependent asthma</td>
+</tr>
+<tr>
+<td>266361008</td>
+<td>Non-allergic asthma</td>
+</tr>
+<tr>
+<td>281239006</td>
+<td>Exacerbation of asthma</td>
+</tr>
+<tr>
+<td>304527002</td>
+<td>Acute asthma</td>
+</tr>
+<tr>
+<td>31387002</td>
+<td>Exercise-induced asthma</td>
+</tr>
+<tr>
+<td>34015007</td>
+<td>Bakers&#x27; asthma</td>
+</tr>
+<tr>
+<td>370218001</td>
+<td>Mild asthma</td>
+</tr>
+<tr>
+<td>370219009</td>
+ <td>Moderate asthma</td>
+</tr>
+<tr>
+<td>370220003</td>
+<td>Occasional asthma</td>
+</tr>
+<tr>
+<td>370221004</td>
+<td>Severe asthma</td>
+</tr>
+<tr>
+<td>37981002</td>
+<td>Allergic bronchopulmonary aspergillosis</td>
+</tr>
+<tr>
+<td>389145006</td>
+<td>Allergic asthma</td>
+</tr>
+<tr>
+<td>401000119107</td>
+<td>Asthma with irreversible airway obstruction</td>
+</tr>
+<tr>
+<td>404804003</td>
+<td>Platinum asthma</td>
+</tr>
+<tr>
+<td>404806001</td>
+<td>Cheese-makers&#x27; asthma</td>
+</tr>
+<tr>
+<td>404808000</td>
+<td>Isocyanate induced asthma</td>
+</tr>
+<tr>
+<td>405944004</td>
+<td>Asthmatic bronchitis</td>
+</tr>
+<tr>
+<td>407674008</td>
+<td>Aspirin-induced asthma</td>
+</tr>
+<tr>
+<td>409663006</td>
+<td>Cough variant asthma</td>
+</tr>
+<tr>
+<td>41553006</td>
+<td>Detergent asthma</td>
+</tr>
+<tr>
+<td>418395004</td>
+<td>Tea-makers&#x27; asthma</td>
+</tr>
+<tr>
+<td>423889005</td>
+<td>Non-immunoglobulin E mediated allergic asthma</td>
+</tr>
+<tr>
+<td>424199006</td>
+<td>Substance induced asthma</td>
+</tr>
+<tr>
+<td>424643009</td>
+<td>Immunoglobulin E-mediated allergic asthma</td>
+</tr>
+<tr>
+<td>425969006</td>
+<td>Exacerbation of intermittent asthma</td>
+</tr>
+<tr>
+<td>426656000</td>
+<td>Severe persistent asthma</td>
+</tr>
+<tr>
+<td>426979002</td>
+<td>Mild persistent asthma</td>
+</tr>
+<tr>
+<td>427295004</td>
+<td>Moderate persistent asthma</td>
+</tr>
+<tr>
+<td>427603009</td>
+<td>Intermittent asthma</td>
+</tr>
+<tr>
+<td>427679007</td>
+<td>Mild intermittent asthma</td>
+</tr>
+<tr>
+<td>442025000</td>
+<td>Acute exacerbation of chronic asthmatic bronchitis</td>
+</tr>
+<tr>
+<td>445427006</td>
+<td>Seasonal asthma</td>
+</tr>
+<tr>
+<td>55570000</td>
+<td>Asthma without status asthmaticus</td>
+</tr>
+<tr>
+<td>56968009</td>
+<td>Asthma caused by wood dust</td>
+</tr>
+<tr>
+<td>57607007</td>
+<td>Occupational asthma</td>
+</tr>
+<tr>
+<td>59786004</td>
+<td>Weavers&#x27; cough</td>
+</tr>
+<tr>
+<td>63088003</td>
+<td>Allergic asthma without status asthmaticus</td>
+</tr>
+<tr>
+<td>703953004</td>
+<td>Allergic asthma caused by Dermatophagoides pteronyssinus</td>
+</tr>
+<tr>
+<td>703954005</td>
+<td>Allergic asthma caused by Dermatophagoides farinae</td>
+</tr>
+<tr>
+ <td>707444001</td>
+<td>Uncomplicated asthma</td>
+</tr>
+<tr>
+<td>707445000</td>
+<td>Exacerbation of mild persistent asthma</td>
+</tr>
+<tr>
+<td>707446004</td>
+<td>Exacerbation of moderate persistent asthma</td>
+</tr>
+<tr>
+<td>707447008</td>
+<td>Exacerbation of severe persistent asthma</td>
+</tr>
+<tr>
+<td>707511009</td>
+<td>Uncomplicated mild persistent asthma</td>
+</tr>
+<tr>
+<td>707512002</td>
+<td>Uncomplicated moderate persistent asthma</td>
+</tr>
+<tr>
+<td>707513007</td>
+<td>Uncomplicated severe persistent asthma</td>
+</tr>
+<tr>
+<td>707979007</td>
+<td>Acute severe exacerbation of severe persistent asthma</td>
+</tr>
+<tr>
+<td>707980005</td>
+<td>Acute severe exacerbation of moderate persistent asthma</td>
+</tr>
+<tr>
+<td>707981009</td>
+<td>Acute severe exacerbation of mild persistent asthma</td>
+</tr>
+<tr>
+<td>708038006</td>
+<td>Acute exacerbation of asthma</td>
+</tr>
+<tr>
+<td>708090002</td>
+<td>Acute severe exacerbation of asthma</td>
+</tr>
+<tr>
+<td>708093000</td>
+<td>Acute exacerbation of immunoglobulin E-mediated allergic asthma</td>
+</tr>
+<tr>
+<td>708094006</td>
+<td>Acute exacerbation of intrinsic asthma</td>
+</tr>
+<tr>
+<td>708095007</td>
+<td>Acute severe exacerbation of immunoglobin E-mediated allergic asthma</td>
+</tr>
+<tr>
+<td>708096008</td>
+<td>Acute severe exacerbation of intrinsic asthma</td>
+</tr>
+<tr>
+<td>72301000119103</td>
+<td>Asthma in pregnancy</td>
+</tr>
+<tr>
+<td>733858005</td>
+<td>Acute severe refractory exacerbation of asthma</td>
+</tr>
+<tr>
+<td>734904007</td>
+<td>Life threatening acute exacerbation of asthma</td>
+</tr>
+<tr>
+<td>734905008</td>
+<td>Moderate acute exacerbation of asthma</td>
+</tr>
+<tr>
+<td>735588005</td>
+<td>Uncomplicated allergic asthma</td>
+</tr>
+<tr>
+<td>735589002</td>
+<td>Uncomplicated non-allergic asthma</td>
+</tr>
+<tr>
+<td>762521001</td>
+<td>Exacerbation of allergic asthma</td>
+</tr>
+<tr>
+<td>782513000</td>
+<td>Acute severe exacerbation of allergic asthma</td>
+</tr>
+<tr>
+<td>782520007</td>
+<td>Exacerbation of allergic asthma due to infection</td>
+</tr>
+<tr>
+<td>786836003</td>
+<td>Near fatal asthma</td>
+</tr>
+<tr>
+<td>829976001</td>
+<td>Thunderstorm asthma</td>
+</tr>
+<tr>
+<td>866881000000101</td>
+<td>Chronic asthma with fixed airflow obstruction</td>
+</tr>
+<tr>
+<td>92807009</td>
+<td>Chemical-induced asthma</td>
+</tr>
+<tr>
+ <td>93432008</td>
+<td>Drug-induced asthma</td>
+</tr>
+<tr>
+<td>99031000119107</td>
+<td>Acute exacerbation of asthma co-occurrent with allergic rhinitis</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tab-pane fade p-4" id="tree" role="tabpanel" aria-labelledby="tree-tab">
+<p>
+Codes not in the <a href="#full-list">full codelist</a> are in faint grey.
+</p>
+<div id="codelist-tree"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="js-publish-version-form" tabindex="-1" role="dialog" aria-labelledby="publish-version-label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="publish-version-label">Publish Version</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form method="POST" action="/codelist/primis-covid19-vacc-uptake/ast/v1/publish/">
+<input type="hidden" name="csrfmiddlewaretoken" value="2sIPx6QxxTAvBzjIOmxleKWmMIJ6quMb9vFPD5Rs4mVLMGnE6pfobdL6cyZzSmHo">
+<p>Publishing a version is irreversible, and will delete any other draft versions or versions under review.</p>
+<p>Are you sure you want to continue?</p>
+<div class="d-flex justify-content-between">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">
+Cancel
+</button>
+<button type="submit" class="btn btn-primary">
+Publish
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="js-delete-version-form" tabindex="-1" role="dialog" aria-labelledby="delete-version-label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="delete-version-label">Delete Version</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form method="POST" action="/codelist/primis-covid19-vacc-uptake/ast/v1/delete/">
+<input type="hidden" name="csrfmiddlewaretoken" value="2sIPx6QxxTAvBzjIOmxleKWmMIJ6quMb9vFPD5Rs4mVLMGnE6pfobdL6cyZzSmHo">
+<p>Deleting a version is irreversible.</p>
+<p>Are you sure you want to continue?</p>
+<div class="d-flex justify-content-between">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">
+Cancel
+</button>
+<button type="submit" class="btn btn-primary">
+Delete
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#js-codelist-table').DataTable({
+      paging: false
+    });
+
+    $('a[data-toggle="tab"]').on("click", function() {
+      var url = location.href.split("#")[0];
+
+      if ($(this).attr("href") !== "#about") {
+        url += $(this).attr("href");
+      }
+
+      history.pushState(null, null, url);
+    });
+
+    switchToTab();
+  });
+
+  window.addEventListener("hashchange", switchToTab);
+
+  function switchToTab() {
+    var hash = location.hash || "#about";
+    $('#tab-list a[href="' + hash + '"]').tab("show");
+  }
+</script>
+<script id="child-map" type="application/json">{"199293005": ["72301000119103", "10742121000119104"], "118254002": ["274751001", "297268004", "406122000"], "266361008": ["12428000", "735589002", "708094006"], "389145006": ["10675431000119106", "703953004", "10675871000119106", "423889005", "10676391000119108", "762521001", "735588005", "233687002", "703954005", "424643009", "10674991000119104", "56968009"], "708090002": ["734904007", "707981009", "707980005", "708096008", "733858005", "707979007", "10674711000119105", "782513000"], "124991000119109": ["10675551000119104"], "195967001": ["10692761000119107", "370221004", "370220003", "31387002", "389145006", "281239006", "10742121000119104", "405944004", "225057002", "370219009", "370218001", "424199006", "707444001", "55570000", "233679003", "409663006", "233678006", "72301000119103", "401000119107", "266361008", "445427006", "2360001000004109", "195977004", "427603009", "304527002", "866881000000101"], "201060008": ["7393007", "129134004"], "422339003": ["423889005"], "427295004": ["707512002", "10676391000119108", "707446004", "125001000119103"], "61582004": ["124991000119109", "99031000119107", "125021000119107", "125011000119100", "125001000119103", "367498001"], "781474001": ["420881009", "422076005", "422339003", "421092003", "422290000"], "362965005": ["50043002", "363171009", "95351003", "128598002"], "57607007": ["34015007", "41553006", "59786004", "19849005", "11641008", "233687002", "404804003", "18041002", "404806001", "404808000", "418395004"], "782513000": ["708095007", "1086701000000102", "10675911000119109", "10675471000119109", "10676431000119103"], "762521001": ["829976001", "782520007", "708093000", "782513000"], "238986007": ["404805002"], "123946008": ["781474001", "128121009", "232208008", "118934005", "363170005", "19660004", "362965005"], "301857004": ["106076001", "118254002", "300862005", "302292003", "80659006"], "135171000119106": ["707980005"], "304527002": ["786836003", "442025000", "708038006", "1751000119100"], "138875005": ["404684003"], "707444001": ["707513007", "735589002", "735588005", "707511009", "707512002"], "248402002": ["19660004", "249353005", "106076001"], "280131007": ["70076002"], "205237003": ["103781000119103"], "118234003": ["248402002", "123946008", "406123005", "300848003", "301857004", "106048009", "415531008", "106077005"], "473010000": ["427439005", "609405001", "735446004", "473011001", "421961002"], "414029004": ["413834006", "34015007", "781474001", "427439005"], "422076005": ["421871004"], "373405005": ["363180009", "404805002"], "17097001": ["445427006", "413839001", "63480004", "367498001", "10692721000119102"], "111273006": ["195951007", "304527002", "425748003"], "64572001": ["123946008", "414029004", "128139000", "8504008", "116223007", "2704003", "27624003", "441456002", "87858002"], "301252002": ["170628003"], "363169009": ["205237003", "32398004", "703938007", "70076002"], "473011001": ["34015007", "781474001"], "281239006": ["425969006", "707446004", "762521001", "708038006", "707447008", "707445000"], "370221004": ["786836003", "426656000", "1103911000000103"], "363170005": ["363171009", "363169009", "363176004"], "92807009": ["703953004", "404804003", "703954005", "233688007", "407674008", "404808000"], "426656000": ["10675431000119106", "10675391000119101", "707513007", "124991000119109", "10675751000119107", "707447008"], "282100009": ["840589003", "62014003", "269722001"], "427603009": ["425969006", "1741000119102", "125021000119107", "427679007", "10674991000119104"], "63480004": ["195949008", "425748003"], "128272009": ["128997002", "19829001", "233776003"], "300848003": ["300862005"], "708094006": ["708096008"], "708038006": ["708094006", "734905008", "135171000119106", "708093000", "99031000119107", "135181000119109", "708090002", "10692721000119102"], "118934005": ["118930001", "7393007", "363176004", "232339008", "280131007"], "118237005": ["249342004", "301191003", "89488007"], "58184002": ["367498001", "445427006"], "817956002": ["404805002"], "19829001": ["24417004", "68917000", "413839001", "205237003"], "707981009": ["10675991000119100", "10675911000119109"], "118946009": ["19829001", "41427001"], "301226008": ["301229001", "301230006", "128997002", "233776003"], "93432008": ["407674008"], "50043002": ["373405005", "111273006", "17097001", "128272009", "735446004", "199293005", "201060008", "195967001", "421092003"], "703938007": ["402587003", "817956002"], "424643009": ["829976001", "708093000", "63088003"], "128997002": ["205237003", "32398004"], "10674711000119105": ["10675991000119100", "10675551000119104", "10676511000119109"], "128482007": ["99031000119107", "708093000", "782513000", "425748003"], "80659006": ["95320005", "363168001", "238986007"], "301186004": ["201060008", "271745005", "249342004"], "420881009": ["703953004", "404805002", "233687002", "703954005", "56968009", "103781000119103"], "406122000": ["432525007", "298364001", "118934005"], "298364001": ["301310005", "232339008", "271745005"], "128139000": ["128482007", "363170005", "128294001"], "441766009": ["10692681000119108"], "415531008": ["128145008", "106076001"], "609623002": ["609622007", "298705000"], "116223007": ["198609003", "281647001"], "269722001": ["292044008"], "232208008": ["201060008"], "8504008": ["115966001"], "363176004": ["36971009", "70076002"], "363171009": ["363168001", "373405005", "95361005"], "41427001": ["32398004"], "292041000": ["419901001"], "707447008": ["707979007"], "55570000": ["12428000", "63088003"], "427640001": ["407674008"], "13645005": ["10692761000119107", "195951007"], "404684003": ["118234003", "473010000", "64572001"], "27624003": ["58184002", "17097001", "128294001", "413834006"], "300862005": ["274751001"], "19660004": ["280131007", "80659006"], "424199006": ["92807009", "57607007", "93432008", "56968009", "103781000119103"], "128121009": ["609622007"], "404805002": ["404804003"], "128145008": ["95351003", "249353005"], "445427006": ["233683003", "829976001"], "370219009": ["427295004"], "363180009": ["389145006", "129134004", "128997002"], "106077005": ["106076001", "128598002"], "708093000": ["708095007"], "735446004": ["735445000"], "233776003": ["68917000", "41427001"], "32398004": ["405944004", "63480004"], "10676391000119108": ["10676431000119103"], "125011000119100": ["10675991000119100"], "2704003": ["128482007", "111273006"], "99031000119107": ["10674711000119105"], "292040004": ["292041000"], "441456002": ["10692681000119108"], "7393007": ["36971009"], "302292003": ["609623002", "128121009"], "128294001": ["63480004"], "363168001": ["703938007"], "103781000119103": ["37981002"], "10675431000119106": ["10675471000119109"], "12441000132105": ["402587003"], "292044008": ["407674008"], "707979007": ["10675551000119104", "10675471000119109"], "413839001": ["13645005"], "609622007": ["118946009"], "70076002": ["61582004"], "370218001": ["427679007", "426979002"], "249342004": ["249353005"], "708096008": ["1086711000000100"], "115966001": ["12441000132105", "86157004"], "367498001": ["233683003"], "62014003": ["93432008", "292040004"], "232339008": ["89488007"], "734904007": ["1086701000000102", "1086711000000100"], "24417004": ["86157004"], "281647001": ["421961002", "282100009"], "106048009": ["50043002", "301226008", "301186004", "365852007"], "840589003": ["292044008"], "129134004": ["36971009", "70076002"], "707980005": ["10676431000119103", "10676511000119109"], "89488007": ["70076002", "10692681000119108"], "128598002": ["80659006"], "426979002": ["125011000119100", "707445000", "707511009", "10675871000119106"], "298705000": ["301229001", "301230006", "118946009"], "95320005": ["12441000132105", "703938007", "422290000"], "301230006": ["19829001"], "707445000": ["135181000119109"], "413834006": ["367498001", "829976001"], "198609003": ["199293005"], "10675871000119106": ["10675911000119109"], "87858002": ["62014003", "233687002", "427640001"], "707446004": ["135171000119106"], "301310005": ["767811005", "118930001", "118237005"], "402587003": ["404805002"], "106076001": ["95320005"], "195951007": ["1751000119100"], "297268004": ["301186004", "232208008"], "118930001": ["89488007"], "95351003": ["95361005"], "365852007": ["301252002"], "425748003": ["442025000"], "432525007": ["441766009"], "609406000": ["407674008"], "68917000": ["13645005"], "195949008": ["442025000"], "406123005": ["301230006"], "609405001": ["609406000", "427640001"], "421871004": ["61582004"], "767811005": ["301191003"], "95361005": ["70076002"], "422290000": ["404805002"], "170628003": ["401000119107"], "421092003": ["404805002", "735445000"], "405944004": ["195949008"], "274751001": ["432525007"], "135181000119109": ["707981009"], "2360001000004109": ["16584951000119101"], "249353005": ["70076002"], "271745005": ["7393007"], "419901001": ["292044008"], "301191003": ["441766009"], "421961002": ["609406000"], "301229001": ["41427001"], "427439005": ["422076005"], "86157004": ["57607007"], "407674008": ["10692681000119108"], "735445000": ["389145006", "103781000119103"], "36971009": ["10692681000119108"], "125001000119103": ["10676511000119109"]}</script>
+<script id="parent-map" type="application/json">{"72301000119103": ["195967001", "199293005"], "274751001": ["118254002", "300862005"], "708094006": ["708038006", "266361008"], "703954005": ["389145006", "92807009", "420881009"], "10674711000119105": ["708090002", "99031000119107"], "10675551000119104": ["10674711000119105", "707979007", "124991000119109"], "281239006": ["195967001"], "129134004": ["363180009", "201060008"], "423889005": ["389145006", "422339003"], "707512002": ["427295004", "707444001"], "125001000119103": ["61582004", "427295004"], "422076005": ["781474001", "427439005"], "50043002": ["106048009", "362965005"], "11641008": ["57607007"], "708095007": ["708093000", "782513000"], "829976001": ["424643009", "445427006", "762521001", "413834006"], "404805002": ["373405005", "817956002", "420881009", "402587003", "421092003", "238986007", "422290000"], "363171009": ["363170005", "362965005"], "128121009": ["123946008", "302292003"], "300862005": ["300848003", "301857004"], "707980005": ["708090002", "135171000119106"], "424199006": ["195967001"], "1751000119100": ["195951007", "304527002"], "404684003": ["138875005"], "232208008": ["123946008", "297268004"], "707511009": ["707444001", "426979002"], "19660004": ["248402002", "123946008"], "70076002": ["89488007", "363176004", "363169009", "95361005", "280131007", "249353005", "129134004"], "103781000119103": ["424199006", "205237003", "420881009", "735445000"], "301857004": ["118234003"], "735588005": ["389145006", "707444001"], "12428000": ["55570000", "266361008"], "735446004": ["50043002", "473010000"], "413834006": ["414029004", "27624003"], "421871004": ["422076005"], "363180009": ["373405005"], "404804003": ["404805002", "92807009", "57607007"], "420881009": ["781474001"], "225057002": ["195967001"], "782513000": ["128482007", "708090002", "762521001"], "413839001": ["17097001", "19829001"], "304527002": ["195967001", "111273006"], "10692721000119102": ["17097001", "708038006"], "414029004": ["64572001"], "170628003": ["301252002"], "205237003": ["363169009", "128997002", "19829001"], "781474001": ["414029004", "123946008", "473011001"], "425969006": ["281239006", "427603009"], "426656000": ["370221004"], "367498001": ["61582004", "17097001", "58184002", "413834006"], "31387002": ["195967001"], "363169009": ["363170005"], "195951007": ["13645005", "111273006"], "407674008": ["609406000", "92807009", "93432008", "427640001", "292044008"], "10675431000119106": ["389145006", "426656000"], "233687002": ["389145006", "420881009", "57607007", "87858002"], "62014003": ["282100009", "87858002"], "427679007": ["370218001", "427603009"], "195949008": ["405944004", "63480004"], "19829001": ["301230006", "128272009", "118946009"], "735589002": ["707444001", "266361008"], "708096008": ["708090002", "708094006"], "10676391000119108": ["389145006", "427295004"], "99031000119107": ["128482007", "708038006", "61582004"], "280131007": ["19660004", "118934005"], "703953004": ["389145006", "92807009", "420881009"], "249342004": ["301186004", "118237005"], "297268004": ["118254002"], "733858005": ["708090002"], "269722001": ["282100009"], "24417004": ["19829001"], "10675911000119109": ["707981009", "782513000", "10675871000119106"], "41427001": ["301229001", "118946009", "233776003"], "118930001": ["118934005", "301310005"], "128997002": ["301226008", "128272009", "363180009"], "233776003": ["301226008", "128272009"], "249353005": ["248402002", "128145008", "249342004"], "370220003": ["195967001"], "128272009": ["50043002"], "402587003": ["12441000132105", "703938007"], "63088003": ["424643009", "55570000"], "10675991000119100": ["10674711000119105", "707981009", "125011000119100"], "708093000": ["128482007", "708038006", "762521001", "424643009"], "34015007": ["414029004", "57607007", "473011001"], "95320005": ["106076001", "80659006"], "707981009": ["708090002", "135181000119109"], "298364001": ["406122000"], "271745005": ["298364001", "301186004"], "128482007": ["2704003", "128139000"], "233679003": ["195967001"], "10692681000119108": ["89488007", "36971009", "441766009", "441456002", "407674008"], "128145008": ["415531008"], "124991000119109": ["61582004", "426656000"], "298705000": ["609623002"], "10742121000119104": ["195967001", "199293005"], "301310005": ["298364001"], "281647001": ["116223007"], "292044008": ["840589003", "419901001", "269722001"], "201060008": ["50043002", "301186004", "232208008"], "56968009": ["389145006", "424199006", "420881009"], "115966001": ["8504008"], "36971009": ["363176004", "7393007", "129134004"], "363168001": ["363171009", "80659006"], "32398004": ["363169009", "128997002", "41427001"], "118934005": ["123946008", "406122000"], "363176004": ["363170005", "118934005"], "10692761000119107": ["195967001", "13645005"], "419901001": ["292041000"], "106077005": ["118234003"], "707979007": ["708090002", "707447008"], "111273006": ["50043002", "2704003"], "64572001": ["404684003"], "58184002": ["27624003"], "41553006": ["57607007"], "370218001": ["195967001"], "80659006": ["19660004", "128598002", "301857004"], "57607007": ["424199006", "86157004"], "609622007": ["609623002", "128121009"], "427439005": ["414029004", "473010000"], "95351003": ["128145008", "362965005"], "427295004": ["370219009"], "389145006": ["195967001", "363180009", "735445000"], "128598002": ["106077005", "362965005"], "735445000": ["421092003", "735446004"], "405944004": ["195967001", "32398004"], "27624003": ["64572001"], "128294001": ["128139000", "27624003"], "198609003": ["116223007"], "10676431000119103": ["10676391000119108", "707980005", "782513000"], "425748003": ["128482007", "111273006", "63480004"], "817956002": ["703938007"], "409663006": ["195967001"], "703938007": ["95320005", "363169009", "363168001"], "424643009": ["389145006"], "404808000": ["92807009", "57607007"], "59786004": ["57607007"], "195967001": ["50043002"], "10674991000119104": ["389145006", "427603009"], "7393007": ["201060008", "118934005", "271745005"], "92807009": ["424199006"], "445427006": ["58184002", "17097001", "195967001"], "432525007": ["406122000", "274751001"], "292041000": ["292040004"], "199293005": ["50043002", "198609003"], "866881000000101": ["195967001"], "473011001": ["473010000"], "707447008": ["426656000", "281239006"], "609623002": ["302292003"], "782520007": ["762521001"], "63480004": ["17097001", "32398004", "128294001"], "762521001": ["389145006", "281239006"], "89488007": ["118930001", "232339008", "118237005"], "441456002": ["64572001"], "37981002": ["103781000119103"], "106076001": ["248402002", "106077005", "415531008", "301857004"], "1086701000000102": ["734904007", "782513000"], "10675471000119109": ["10675431000119106", "707979007", "782513000"], "707513007": ["426656000", "707444001"], "233678006": ["195967001"], "442025000": ["195949008", "304527002", "425748003"], "13645005": ["413839001", "68917000"], "118946009": ["609622007", "298705000"], "135171000119106": ["708038006", "707446004"], "8504008": ["64572001"], "61582004": ["421871004", "70076002"], "301229001": ["301226008", "298705000"], "68917000": ["19829001", "233776003"], "786836003": ["304527002", "370221004"], "118234003": ["404684003"], "421092003": ["50043002", "781474001"], "1086711000000100": ["734904007", "708096008"], "125011000119100": ["61582004", "426979002"], "86157004": ["24417004", "115966001"], "232339008": ["298364001", "118934005"], "233683003": ["367498001", "445427006"], "10675871000119106": ["389145006", "426979002"], "93432008": ["424199006", "62014003"], "370219009": ["195967001"], "125021000119107": ["61582004", "427603009"], "421961002": ["473010000", "281647001"], "18041002": ["57607007"], "301191003": ["767811005", "118237005"], "123946008": ["118234003", "64572001"], "282100009": ["281647001"], "17097001": ["50043002", "27624003"], "1103911000000103": ["370221004"], "415531008": ["118234003"], "609405001": ["473010000"], "19849005": ["57607007"], "135181000119109": ["708038006", "707445000"], "840589003": ["282100009"], "292040004": ["62014003"], "708038006": ["304527002", "281239006"], "116223007": ["64572001"], "301226008": ["106048009"], "427640001": ["609405001", "87858002"], "266361008": ["195967001"], "302292003": ["301857004"], "128139000": ["64572001"], "238986007": ["80659006"], "362965005": ["123946008"], "118237005": ["301310005"], "406123005": ["118234003"], "300848003": ["118234003"], "363170005": ["123946008", "128139000"], "12441000132105": ["95320005", "115966001"], "301186004": ["106048009", "297268004"], "118254002": ["301857004"], "707444001": ["195967001"], "10676511000119109": ["10674711000119105", "707980005", "125001000119103"], "401000119107": ["195967001", "170628003"], "301230006": ["301226008", "406123005", "298705000"], "1741000119102": ["427603009"], "373405005": ["50043002", "363171009"], "10675751000119107": ["426656000"], "95361005": ["363171009", "95351003"], "418395004": ["57607007"], "406122000": ["118254002"], "370221004": ["195967001"], "734904007": ["708090002"], "301252002": ["365852007"], "10675391000119101": ["426656000"], "767811005": ["301310005"], "2360001000004109": ["195967001"], "441766009": ["432525007", "301191003"], "55570000": ["195967001"], "195977004": ["195967001"], "707445000": ["281239006", "426979002"], "427603009": ["195967001"], "106048009": ["118234003"], "422290000": ["95320005", "781474001"], "365852007": ["106048009"], "708090002": ["708038006"], "248402002": ["118234003"], "233688007": ["92807009"], "2704003": ["64572001"], "734905008": ["708038006"], "87858002": ["64572001"], "16584951000119101": ["2360001000004109"], "707446004": ["427295004", "281239006"], "404806001": ["57607007"], "609406000": ["609405001", "421961002"], "422339003": ["781474001"], "426979002": ["370218001"], "473010000": ["404684003"]}</script>
+<script id="tree-tables" type="application/json">[["Disorder", ["195967001"]]]</script>
+<script id="code-to-term" type="application/json">{"103781000119103": "Allergic bronchopulmonary mycosis", "106048009": "Respiratory finding", "106076001": "Skin finding", "106077005": "Integumentary system finding", "10674711000119105": "Acute severe exacerbation of asthma co-occurrent with allergic rhinitis", "10674991000119104": "Intermittent allergic asthma", "10675391000119101": "Severe controlled persistent asthma", "10675431000119106": "Severe persistent allergic asthma", "10675471000119109": "Acute severe exacerbation of severe persistent allergic asthma", "10675551000119104": "Acute severe exacerbation of severe persistent asthma co-occurrent with allergic rhinitis", "10675751000119107": "Severe uncontrolled persistent asthma", "10675871000119106": "Mild persistent allergic asthma", "10675911000119109": "Acute severe exacerbation of mild persistent allergic asthma", "10675991000119100": "Acute severe exacerbation of mild persistent allergic asthma co-occurrent with allergic rhinitis", "10676391000119108": "Moderate persistent allergic asthma", "10676431000119103": "Acute severe exacerbation of moderate persistent allergic asthma", "10676511000119109": "Acute severe exacerbation of moderate persistent asthma co-occurrent with allergic rhinitis", "10692681000119108": "Aspirin exacerbated respiratory disease", "10692721000119102": "Chronic obstructive asthma co-occurrent with acute exacerbation of asthma", "10692761000119107": "Asthma-chronic obstructive pulmonary disease overlap syndrome", "10742121000119104": "Asthma in mother complicating childbirth", "1086701000000102": "Life threatening acute exacerbation of allergic asthma", "1086711000000100": "Life threatening acute exacerbation of intrinsic asthma", "1103911000000103": "Severe asthma with fungal sensitisation", "111273006": "Acute respiratory disease", "115966001": "Occupational disorder", "116223007": "Complication", "11641008": "Millers' asthma", "118234003": "Finding by site", "118237005": "Nose finding", "118254002": "Finding of head and neck region", "118930001": "Disorder of face", "118934005": "Disorder of head", "118946009": "Disorder of thorax", "123946008": "Disorder by body site", "12428000": "Intrinsic asthma without status asthmaticus", "12441000132105": "Occupational skin disease", "124991000119109": "Severe persistent asthma co-occurrent with allergic rhinitis", "125001000119103": "Moderate persistent asthma co-occurrent with allergic rhinitis", "125011000119100": "Mild persistent asthma co-occurrent with allergic rhinitis", "125021000119107": "Intermittent asthma co-occurrent with allergic rhinitis", "128121009": "Disorder of trunk", "128139000": "Inflammatory disorder", "128145008": "Mucosal finding", "128272009": "Disorder of lower respiratory system", "128294001": "Chronic inflammatory disorder", "128482007": "Acute inflammatory disease", "128598002": "Disorder of integument", "128997002": "Inflammatory disorder of lower respiratory tract", "129134004": "Inflammatory disorder of upper respiratory tract", "135171000119106": "Acute exacerbation of moderate persistent asthma", "135181000119109": "Acute exacerbation of mild persistent asthma", "13645005": "Chronic obstructive lung disease", "138875005": "SNOMED CT Concept (SNOMED RT+CTV3)", "16584951000119101": "Oral steroid-dependent asthma", "170628003": "Airways obstruction irreversible", "17097001": "Chronic disease of respiratory system", "1741000119102": "Intermittent asthma uncontrolled", "1751000119100": "Acute exacerbation of chronic obstructive airways disease with asthma", "18041002": "Printers' asthma", "195949008": "Chronic asthmatic bronchitis", "195951007": "Acute exacerbation of chronic obstructive airways disease", "195967001": "Asthma", "195977004": "Mixed asthma", "19660004": "Disorder of soft tissue", "19829001": "Disorder of lung", "19849005": "Meat-wrappers' asthma", "198609003": "Complication of pregnancy, childbirth and/or the puerperium", "199293005": "Disease of the respiratory system complicating pregnancy, childbirth and/or the puerperium", "201060008": "Disorder of upper respiratory system", "205237003": "Pneumonitis", "225057002": "Brittle asthma", "232208008": "Ear, nose and throat disorder", "232339008": "Disorder of nose AND/OR nasopharynx", "233678006": "Childhood asthma", "233679003": "Late onset asthma", "233683003": "Hay fever with asthma", "233687002": "Colophony asthma", "233688007": "Sulfite-induced asthma", "233776003": "Tracheobronchial disorder", "2360001000004109": "Steroid dependent asthma", "238986007": "Chemical-induced dermatological disorder", "24417004": "Environmental lung disease", "248402002": "General finding of soft tissue", "249342004": "Nasal airway finding", "249353005": "Nasal mucosa finding", "266361008": "Non-allergic asthma", "269722001": "Adverse reaction caused by salicylate", "2704003": "Acute disease", "271745005": "Facial sinus finding", "274751001": "Mass of head and/or neck", "27624003": "Chronic disease", "280131007": "Disorder of soft tissue of head", "281239006": "Exacerbation of asthma", "281647001": "Adverse reaction", "282100009": "Adverse reaction caused by substance", "292040004": "Analgesic adverse reaction", "292041000": "Non-opioid analgesic adverse reaction", "292044008": "Aspirin adverse reaction", "297268004": "Ear, nose and throat finding", "298364001": "Finding of head region", "298705000": "Finding of region of thorax", "300848003": "Mass of body structure", "300862005": "Mass of body region", "301186004": "Upper respiratory tract finding", "301191003": "Lesion of nose", "301226008": "Lower respiratory tract finding", "301229001": "Bronchial finding", "301230006": "Lung finding", "301252002": "Finding of respiratory obstruction", "301310005": "Finding of face", "301857004": "Finding of body region", "302292003": "Finding of trunk structure", "304527002": "Acute asthma", "31387002": "Exercise-induced asthma", "32398004": "Bronchitis", "34015007": "Bakers' asthma", "362965005": "Disorder of body system", "363168001": "Inflammation of skin and/or subcutaneous tissue", "363169009": "Inflammation of specific body organs", "363170005": "Inflammation of specific body structures or tissue", "363171009": "Inflammation of specific body systems", "363176004": "Inflammatory disorder of head", "363180009": "Inflammatory disorder of the respiratory tract", "365852007": "Respiratory function finding", "367498001": "Seasonal allergic rhinitis", "36971009": "Sinusitis", "370218001": "Mild asthma", "370219009": "Moderate asthma", "370220003": "Occasional asthma", "370221004": "Severe asthma", "373405005": "Inflammatory disorder of the respiratory system", "37981002": "Allergic bronchopulmonary aspergillosis", "389145006": "Allergic asthma", "401000119107": "Asthma with irreversible airway obstruction", "402587003": "Occupational dermatitis", "404684003": "Clinical finding", "404804003": "Platinum asthma", "404805002": "Platinosis", "404806001": "Cheese-makers' asthma", "404808000": "Isocyanate induced asthma", "405944004": "Asthmatic bronchitis", "406122000": "Head finding", "406123005": "Viscus structure finding", "407674008": "Aspirin-induced asthma", "409663006": "Cough variant asthma", "413834006": "Chronic disease of immune function", "413839001": "Chronic lung disease", "414029004": "Disorder of immune function", "41427001": "Disorder of bronchus", "41553006": "Detergent asthma", "415531008": "Skin AND/OR mucosa finding", "418395004": "Tea-makers' asthma", "419901001": "Non-steroidal anti-inflammatory drug adverse reaction", "420881009": "Allergic disorder caused by substance", "421092003": "Allergic disorder of respiratory system", "421871004": "Atopic immunoglobulin E-mediated allergic disorder", "421961002": "Hypersensitivity reaction", "422076005": "Immunoglobulin E-mediated allergic disorder", "422290000": "Allergic disorder of skin", "422339003": "Non-immunoglobulin E-mediated allergic disorder", "423889005": "Non-immunoglobulin E mediated allergic asthma", "424199006": "Substance induced asthma", "424643009": "Immunoglobulin E-mediated allergic asthma", "425748003": "Acute exacerbation of chronic bronchitis", "425969006": "Exacerbation of intermittent asthma", "426656000": "Severe persistent asthma", "426979002": "Mild persistent asthma", "427295004": "Moderate persistent asthma", "427439005": "Immune hypersensitivity disorder by mechanism", "427603009": "Intermittent asthma", "427640001": "Non-allergic drug hypersensitivity disorder", "427679007": "Mild intermittent asthma", "432525007": "Mass of head", "441456002": "Polyp", "441766009": "Mass of nose", "442025000": "Acute exacerbation of chronic asthmatic bronchitis", "445427006": "Seasonal asthma", "473010000": "Hypersensitivity condition", "473011001": "Allergic condition", "50043002": "Disorder of respiratory system", "55570000": "Asthma without status asthmaticus", "56968009": "Asthma caused by wood dust", "57607007": "Occupational asthma", "58184002": "Recurrent disease", "59786004": "Weavers' cough", "609405001": "Non-allergic hypersensitivity condition", "609406000": "Pseudoallergic reaction", "609622007": "Disorder of thoracic segment of trunk", "609623002": "Finding of upper trunk", "61582004": "Allergic rhinitis", "62014003": "Adverse reaction caused by drug", "63088003": "Allergic asthma without status asthmaticus", "63480004": "Chronic bronchitis", "64572001": "Disease", "68917000": "Bronchiolar disease", "70076002": "Rhinitis", "703938007": "Inflammatory dermatosis", "703953004": "Allergic asthma caused by Dermatophagoides pteronyssinus", "703954005": "Allergic asthma caused by Dermatophagoides farinae", "707444001": "Uncomplicated asthma", "707445000": "Exacerbation of mild persistent asthma", "707446004": "Exacerbation of moderate persistent asthma", "707447008": "Exacerbation of severe persistent asthma", "707511009": "Uncomplicated mild persistent asthma", "707512002": "Uncomplicated moderate persistent asthma", "707513007": "Uncomplicated severe persistent asthma", "707979007": "Acute severe exacerbation of severe persistent asthma", "707980005": "Acute severe exacerbation of moderate persistent asthma", "707981009": "Acute severe exacerbation of mild persistent asthma", "708038006": "Acute exacerbation of asthma", "708090002": "Acute severe exacerbation of asthma", "708093000": "Acute exacerbation of immunoglobulin E-mediated allergic asthma", "708094006": "Acute exacerbation of intrinsic asthma", "708095007": "Acute severe exacerbation of immunoglobin E-mediated allergic asthma", "708096008": "Acute severe exacerbation of intrinsic asthma", "72301000119103": "Asthma in pregnancy", "733858005": "Acute severe refractory exacerbation of asthma", "734904007": "Life threatening acute exacerbation of asthma", "734905008": "Moderate acute exacerbation of asthma", "735445000": "Allergic disorder of respiratory tract", "735446004": "Hypersensitivity disorder of respiratory tract", "735588005": "Uncomplicated allergic asthma", "735589002": "Uncomplicated non-allergic asthma", "7393007": "Disorder of nasal sinus", "762521001": "Exacerbation of allergic asthma", "767811005": "Lesion of face", "781474001": "Allergic disorder", "782513000": "Acute severe exacerbation of allergic asthma", "782520007": "Exacerbation of allergic asthma due to infection", "786836003": "Near fatal asthma", "80659006": "Disorder of skin and/or subcutaneous tissue", "817956002": "Exogenous dermatitis", "829976001": "Thunderstorm asthma", "840589003": "Adverse reaction to platelet aggregation inhibitor", "8504008": "Environment related disease", "86157004": "Occupational lung disease", "866881000000101": "Chronic asthma with fixed airflow obstruction", "87858002": "Drug-related disorder", "89488007": "Disorder of the nose", "92807009": "Chemical-induced asthma", "93432008": "Drug-induced asthma", "95320005": "Disorder of skin", "95351003": "Disorder of mucous membrane", "95361005": "Inflammatory disease of mucous membrane", "99031000119107": "Acute exacerbation of asthma co-occurrent with allergic rhinitis"}</script>
+<script id="code-to-status" type="application/json">{"195949008": "+", "425969006": "+", "370220003": "+", "10675751000119107": "+", "708096008": "+", "10692681000119108": "+", "11641008": "+", "10675551000119104": "+", "281239006": "+", "734904007": "+", "708095007": "+", "405944004": "+", "99031000119107": "+", "708090002": "+", "370218001": "+", "10675991000119100": "+", "10676431000119103": "+", "55570000": "+", "1741000119102": "+", "1103911000000103": "+", "124991000119109": "+", "10675911000119109": "+", "404806001": "+", "34015007": "+", "423889005": "+", "2360001000004109": "+", "708038006": "+", "1751000119100": "+", "56968009": "+", "103781000119103": "+", "10692761000119107": "+", "370221004": "+", "31387002": "+", "707981009": "+", "92807009": "+", "733858005": "+", "442025000": "+", "233687002": "+", "427295004": "+", "389145006": "+", "10675431000119106": "+", "37981002": "+", "1086711000000100": "+", "135171000119106": "+", "18041002": "+", "10674711000119105": "+", "782513000": "+", "233679003": "+", "708094006": "+", "734905008": "+", "72301000119103": "+", "59786004": "+", "735589002": "+", "703953004": "+", "762521001": "+", "707511009": "+", "707979007": "+", "125011000119100": "+", "404804003": "+", "407674008": "+", "10676391000119108": "+", "735588005": "+", "1086701000000102": "+", "707445000": "+", "125001000119103": "+", "427679007": "+", "707444001": "+", "233678006": "+", "409663006": "+", "426979002": "+", "12428000": "+", "19849005": "+", "57607007": "+", "10676511000119109": "+", "125021000119107": "+", "707447008": "+", "10675471000119109": "+", "195967001": "+", "233683003": "+", "445427006": "+", "707513007": "+", "195977004": "+", "233688007": "+", "304527002": "+", "707512002": "+", "10675391000119101": "+", "10675871000119106": "+", "63088003": "+", "708093000": "+", "418395004": "+", "426656000": "+", "10742121000119104": "+", "16584951000119101": "+", "135181000119109": "+", "225057002": "+", "370219009": "+", "786836003": "+", "703954005": "+", "424199006": "+", "41553006": "+", "707446004": "+", "707980005": "+", "401000119107": "+", "266361008": "+", "424643009": "+", "10692721000119102": "+", "404808000": "+", "829976001": "+", "782520007": "+", "93432008": "+", "427603009": "+", "10674991000119104": "+", "866881000000101": "+", "363180009": "-", "95351003": "-", "111273006": "-", "86157004": "-", "404684003": "-", "7393007": "-", "420881009": "-", "735446004": "-", "116223007": "-", "292041000": "-", "301230006": "-", "118934005": "-", "61582004": "-", "118254002": "-", "432525007": "-", "195951007": "-", "609405001": "-", "128997002": "-", "63480004": "-", "840589003": "-", "198609003": "-", "301229001": "-", "609623002": "-", "703938007": "-", "302292003": "-", "427439005": "-", "115966001": "-", "17097001": "-", "106048009": "-", "362965005": "-", "373405005": "-", "781474001": "-", "232339008": "-", "118946009": "-", "425748003": "-", "817956002": "-", "249353005": "-", "249342004": "-", "50043002": "-", "128145008": "-", "365852007": "-", "68917000": "-", "363176004": "-", "128272009": "-", "300848003": "-", "233776003": "-", "422339003": "-", "95361005": "-", "19660004": "-", "421092003": "-", "80659006": "-", "248402002": "-", "123946008": "-", "64572001": "-", "413834006": "-", "8504008": "-", "298705000": "-", "415531008": "-", "427640001": "-", "402587003": "-", "413839001": "-", "199293005": "-", "62014003": "-", "298364001": "-", "201060008": "-", "363168001": "-", "24417004": "-", "41427001": "-", "301191003": "-", "422076005": "-", "292040004": "-", "292044008": "-", "106076001": "-", "282100009": "-", "70076002": "-", "473011001": "-", "19829001": "-", "473010000": "-", "128139000": "-", "281647001": "-", "404805002": "-", "300862005": "-", "363169009": "-", "269722001": "-", "363170005": "-", "735445000": "-", "297268004": "-", "12441000132105": "-", "118930001": "-", "609406000": "-", "13645005": "-", "367498001": "-", "301252002": "-", "58184002": "-", "274751001": "-", "406122000": "-", "128294001": "-", "89488007": "-", "128598002": "-", "2704003": "-", "36971009": "-", "414029004": "-", "767811005": "-", "301310005": "-", "118237005": "-", "280131007": "-", "441766009": "-", "27624003": "-", "138875005": "-", "301186004": "-", "32398004": "-", "441456002": "-", "421871004": "-", "609622007": "-", "129134004": "-", "238986007": "-", "271745005": "-", "421961002": "-", "363171009": "-", "128121009": "-", "301226008": "-", "406123005": "-", "232208008": "-", "301857004": "-", "118234003": "-", "128482007": "-", "106077005": "-", "422290000": "-", "205237003": "-", "419901001": "-", "170628003": "-", "95320005": "-", "87858002": "-"}</script>
+<script src="/static/js/tree.bundle.js"></script>
+</main>
+<footer id="footer" class="border-top bg-light mt-auto py-5">
+<div class="container">
+<ul class="list-inline text-center d-flex flex-column flex-md-row justify-content-center mb-0 mb-md-3">
+<li class="list-inline-item mb-3 mb-md-0 mr-0 mr-md-5">
+<a href="/docs/">
+Documentation
+</a>
+</li>
+<li class="list-inline-item mb-3 mb-md-0 mr-0">
+<a href="https://www.opensafely.org/">
+OpenSAFELY
+</a>
+</li>
+</ul>
+<ul class="list-inline text-center d-flex flex-column flex-md-row justify-content-center">
+<li class="list-inline-item mb-3 mb-md-0 mr-0 mr-md-5">
+<a href="https://www.bennett.ox.ac.uk/">
+Bennett Institute for Applied Data Science
+</a>
+</li>
+<li class="list-inline-item mb-3 mb-md-0">
+<a href="https://www.ox.ac.uk/">
+University of Oxford
+</a>
+</li>
+</ul>
+<div class="row">
+<div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 text-center mt-3 mb-0 small">
+<p>© University of Oxford for the Bennett Institute for Applied Data Science 2022. This work may be copied freely for non-commercial research and study. If you wish to do any of the other acts restricted by the copyright you should apply in writing to <a href="/cdn-cgi/l/email-protection#f18594909cb19e81949f829097949d88df9e8396"><span class="__cf_email__" data-cfemail="720617131f321d02171c011314171e0b5c1d0015">[email&#160;protected]</span></a>.</p>
+<p>SNOMED Clinical Terms® content © International Health Terminology Standards Development Organisation.</p>
+<p>ICD-10 codes, terms and text © World Health Organization, Third Edition. 2007.</p>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
