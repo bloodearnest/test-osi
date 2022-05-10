@@ -74,7 +74,7 @@
         document.head.appendChild(script);
       }
     </script>
-<title>OpenCodelists: Asthma Admission codes</title>
+<title>OpenCodelists: Asthma resolved codes</title>
 <link rel="icon" href="/static/favicon.ico">
 <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
@@ -105,15 +105,15 @@
 </nav>
 <main role="main" class="flex-shrink-0 container mb-5">
 <div class="mt-4">
-<h3 class="mt-4">Asthma Admission codes</h3>
+<h3 class="mt-4">Asthma resolved codes</h3>
 <hr />
 <div class="row">
 <div class="col-md-3 col-lg-2">
 <div class="btn-group-vertical btn-block" role="group">
-<a href="/codelist/primis-covid19-vacc-uptake-old/astadm_cod/v1/download.csv" role="button" class="btn btn-outline-primary btn-block">
+<a href="/codelist/nhsd-primary-care-domain-refsets/astres_cod/20200812/download.csv" role="button" class="btn btn-outline-primary btn-block">
 Download CSV
 </a>
-<a href="/codelist/primis-covid19-vacc-uptake-old/astadm_cod/v1/definition.csv" role="button" class="btn btn-outline-primary btn-block">
+<a href="/codelist/nhsd-primary-care-domain-refsets/astres_cod/20200812/definition.csv" role="button" class="btn btn-outline-primary btn-block">
 Download definition
 </a>
 </div>
@@ -122,19 +122,19 @@ Download definition
 <dt>Coding system</dt>
 <dd>SNOMED CT</dd>
 <dt>Organisation</dt>
-<dd>PRIMIS Covid Vaccination Uptake Reporting</dd>
+<dd>NHSD Primary Care Domain Refsets</dd>
 <dt>Codelist ID</dt>
-<dd class="text-break">primis-covid19-vacc-uptake-old/astadm_cod</dd>
+<dd class="text-break">nhsd-primary-care-domain-refsets/astres_cod</dd>
 <dt>Version Tag</dt>
-<dd>v1</dd>
+<dd>20200812</dd>
 <dt>Version ID</dt>
-<dd>28ce7bb6</dd>
+<dd>3f770244</dd>
 </dl>
 <hr />
 <h6>Versions</h6>
 <ul class="pl-3">
 <li>
-v1
+20200812
 </li>
 </ul>
 </div>
@@ -156,9 +156,12 @@ v1
 <div class="tab-content">
 <div class="tab-pane fade p-4 show active" id="about" role="tabpanel" aria-labelledby="about-tab">
 <h4>Description</h4>
-<p><p>Taken from the <code>ASTADM_COD</code> field in SARS-CoV2 COVID19 Vaccination Uptake Reporting Codes 20_21 v1, published by PRIMIS.</p>
-<p>© PRIMIS - the University of Nottingham 2021</p>
+<p><p>Taken from the <code>ASTRES_COD</code> refset published by NHSD.</p>
 </p>
+<h4>References</h4>
+<ul>
+<li><a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/primary-care-domain-reference-set-portal">Primary Care Domain Reference Set Portal</a></li>
+</ul>
 </div>
 <div class="tab-pane fade p-4" id="full-list" role="tabpanel" aria-labelledby="full-list-tab">
 <table id="js-codelist-table" class="table table-sm">
@@ -168,12 +171,8 @@ v1
 </thead>
 <tbody>
 <tr>
-<td>183478001</td>
-<td>Emergency hospital admission for asthma</td>
-</tr>
-<tr>
-<td>708358003</td>
-<td>Emergency asthma admission since last encounter</td>
+<td>162660004</td>
+<td>Asthma resolved</td>
 </tr>
 </tbody>
 </table>
@@ -197,8 +196,8 @@ Codes not in the <a href="#full-list">full codelist</a> are in faint grey.
 </button>
 </div>
 <div class="modal-body">
-<form method="POST" action="/codelist/primis-covid19-vacc-uptake-old/astadm_cod/v1/publish/">
-<input type="hidden" name="csrfmiddlewaretoken" value="d1rOP5l5HOeCjHzNC6MJRIQDjcYNsc504WsmIyfr1Bsfx25TLlytC8y51FDkfOcK">
+<form method="POST" action="/codelist/nhsd-primary-care-domain-refsets/astres_cod/20200812/publish/">
+<input type="hidden" name="csrfmiddlewaretoken" value="zam4bqyj6YSOLH1AQJrVnI5RdopgPR45aUV3CwYcHD2EiXzjOwoborWoCVsUgMkO">
 <p>Publishing a version is irreversible, and will delete any other draft versions or versions under review.</p>
 <p>Are you sure you want to continue?</p>
 <div class="d-flex justify-content-between">
@@ -224,8 +223,8 @@ Publish
 </button>
 </div>
 <div class="modal-body">
-<form method="POST" action="/codelist/primis-covid19-vacc-uptake-old/astadm_cod/v1/delete/">
-<input type="hidden" name="csrfmiddlewaretoken" value="d1rOP5l5HOeCjHzNC6MJRIQDjcYNsc504WsmIyfr1Bsfx25TLlytC8y51FDkfOcK">
+<form method="POST" action="/codelist/nhsd-primary-care-domain-refsets/astres_cod/20200812/delete/">
+<input type="hidden" name="csrfmiddlewaretoken" value="zam4bqyj6YSOLH1AQJrVnI5RdopgPR45aUV3CwYcHD2EiXzjOwoborWoCVsUgMkO">
 <p>Deleting a version is irreversible.</p>
 <p>Are you sure you want to continue?</p>
 <div class="d-flex justify-content-between">
@@ -272,11 +271,11 @@ Delete
     $('#tab-list a[href="' + hash + '"]').tab("show");
   }
 </script>
-<script id="child-map" type="application/json">{"71388002": ["410533009", "14734007"], "129125009": ["416940007", "443938003"], "416940007": ["708358003"], "305335007": ["32485007"], "183452005": ["183478001"], "138875005": ["71388002", "243796009"], "443938003": ["708358003"], "373110003": ["183452005"], "410533009": ["373110003"], "305056002": ["305335007"], "32485007": ["183452005"], "14734007": ["305056002"], "243796009": ["129125009"]}</script>
-<script id="parent-map" type="application/json">{"14734007": ["71388002"], "443938003": ["129125009"], "708358003": ["416940007", "443938003"], "32485007": ["305335007"], "183478001": ["183452005"], "71388002": ["138875005"], "183452005": ["373110003", "32485007"], "373110003": ["410533009"], "410533009": ["71388002"], "305335007": ["305056002"], "243796009": ["138875005"], "416940007": ["129125009"], "305056002": ["14734007"], "129125009": ["243796009"]}</script>
-<script id="tree-tables" type="application/json">[["Procedure", ["183478001"]], ["Situation", ["708358003"]]]</script>
-<script id="code-to-term" type="application/json">{"129125009": "Procedure with explicit context", "138875005": "SNOMED CT Concept (SNOMED RT+CTV3)", "14734007": "Administrative procedure", "183452005": "Emergency hospital admission", "183478001": "Emergency hospital admission for asthma", "243796009": "Situation with explicit context", "305056002": "Admission procedure", "305335007": "Admission to establishment", "32485007": "Hospital admission", "373110003": "Emergency procedure", "410533009": "Procedure by priority", "416940007": "Past history of procedure", "443938003": "Procedure carried out on subject", "708358003": "Emergency asthma admission since last encounter", "71388002": "Procedure"}</script>
-<script id="code-to-status" type="application/json">{"183478001": "+", "708358003": "+", "305056002": "-", "243796009": "-", "305335007": "-", "410533009": "-", "416940007": "-", "14734007": "-", "129125009": "-", "71388002": "-", "32485007": "-", "183452005": "-", "443938003": "-", "138875005": "-", "373110003": "-"}</script>
+<script id="child-map" type="application/json">{"418138009": ["370996005"], "138875005": ["404684003"], "118222006": ["418138009"], "370996005": ["162660004"], "250171008": ["118222006"], "404684003": ["250171008"]}</script>
+<script id="parent-map" type="application/json">{"370996005": ["418138009"], "404684003": ["138875005"], "418138009": ["118222006"], "162660004": ["370996005"], "118222006": ["250171008"], "250171008": ["404684003"]}</script>
+<script id="tree-tables" type="application/json">[["Finding", ["162660004"]]]</script>
+<script id="code-to-term" type="application/json">{"118222006": "General finding of observation of patient", "138875005": "SNOMED CT Concept (SNOMED RT+CTV3)", "162660004": "Asthma resolved", "250171008": "Clinical history and observation findings", "370996005": "Patient condition resolved", "404684003": "Clinical finding", "418138009": "Patient condition finding"}</script>
+<script id="code-to-status" type="application/json">{"162660004": "+", "250171008": "-", "404684003": "-", "370996005": "-", "118222006": "-", "418138009": "-", "138875005": "-"}</script>
 <script src="/static/js/tree.bundle.js"></script>
 </main>
 <footer id="footer" class="border-top bg-light mt-auto py-5">
@@ -307,7 +306,7 @@ University of Oxford
 </ul>
 <div class="row">
 <div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 text-center mt-3 mb-0 small">
-<p>© University of Oxford for the Bennett Institute for Applied Data Science 2022. This work may be copied freely for non-commercial research and study. If you wish to do any of the other acts restricted by the copyright you should apply in writing to <a href="/cdn-cgi/l/email-protection#d0a4b5b1bd90bfa0b5bea3b1b6b5bca9febfa2b7"><span class="__cf_email__" data-cfemail="1a6e7f7b775a756a7f74697b7c7f76633475687d">[email&#160;protected]</span></a>.</p>
+<p>© University of Oxford for the Bennett Institute for Applied Data Science 2022. This work may be copied freely for non-commercial research and study. If you wish to do any of the other acts restricted by the copyright you should apply in writing to <a href="/cdn-cgi/l/email-protection#9beffefaf6dbf4ebfef5e8fafdfef7e2b5f4e9fc"><span class="__cf_email__" data-cfemail="93e7f6f2fed3fce3f6fde0f2f5f6ffeabdfce1f4">[email&#160;protected]</span></a>.</p>
 <p>SNOMED Clinical Terms® content © International Health Terminology Standards Development Organisation.</p>
 <p>ICD-10 codes, terms and text © World Health Organization, Third Edition. 2007.</p>
 </div>
